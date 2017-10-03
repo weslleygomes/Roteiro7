@@ -18,12 +18,12 @@ int main() {
 	cout << "O trabalhador eh por 1 - assalariado ou 2 - por hora?: ";
 	cin >> es;
 	if(es == 1){
-		t.setTrab(nome, salario);
-		cout<<"Ele recebeu: " << t.calcularPagamento(x, es) << "Esse Mes.";
+		t.setTrab1(nome, salario);
+		cout<<"Ele recebeu: " << t.calcularPagamento(x, es) << " Esse Mes.";
 		
 	}else{
-		t.setTrab1(nome, salario);
-	cout<<"Ele recebeu: " << t.calcularPagamento(x, es) << "Esse Mes.";
+		t.setTrab(nome, salario);
+	cout<<"Ele recebeu: " << t.calcularPagamento(x, es) << " Esse Mes.";
 	}
 	return 0;
 }
